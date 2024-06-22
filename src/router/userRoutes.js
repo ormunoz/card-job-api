@@ -87,5 +87,10 @@ router.get('/all', userController.getAllUser );
 router.post('/login', userController.loginUser) // ok
 
 
+router.delete('/delete/:id', userController.deleteUser);
+
+
+router.put('/change-role/:id', userController.changeUserRole);
+
 module.exports = router
 
