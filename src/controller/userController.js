@@ -99,5 +99,6 @@ module.exports = {
   createInvitation,
   loginUser,
   deleteUser,
-  changeUserRole
+  changeUserRole,
+  createInvitation
 }
